@@ -1,0 +1,13 @@
+// Markov Algorithm
+digraph {
+	start [shape=none]
+	end [shape=none]
+	yy
+	yx
+	xy
+	xx
+	yx -> xy [label="yx -> xy"]
+	xy -> end [label="xy -> ε"]
+	yy -> yy [label=yy]
+	xx -> xx [label=xx]
+}

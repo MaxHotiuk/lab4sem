@@ -1,0 +1,41 @@
+CREATE TABLE Contact(
+    ID INT PRIMARY KEY NOT NULL,
+    Phone VARCHAR(10) NOT NULL,
+    Email VARCHAR (100) NOT NULL
+);
+
+CREATE TABLE Customer(
+    ID INT PRIMARY KEY NOT NULL,
+    Name VARCHAR(20) NOT NULL,
+    ContactID INT NOT NULL,
+    FOREIGN KEY (ContactID) REFERENCES Contact(ID)
+);
+
+CREATE TABLE OfflineStorage(
+    ID INT PRIMARY KEY NOT NULL,
+    Paper VARCHAR(100) NOT NULL,
+    USB VARCHAR(100) NOT NULL,
+    CD VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE History(
+    ID INT PRIMARY KEY NOT NULL,
+    ChangeDate DATE NOT NULL,
+    CustomerID INT NOT NULL,
+    FOREIGN KEY (CustomerID) REFERENCES Customer(ID)
+);
+
+CREATE  TABLE Document(
+    ID INT PRIMARY KEY NOT NULL,
+    Name VARCHAR(100) NOT NULL,
+    CreateDate DATE NOT NULL,
+    LastChangeDate DATE NOT NULL,
+    OfflineStorageID INT NOT NULL,
+    CustomerID INT NOT NULL,
+    ChangeID INT NOT NULL,
+    HistoryID INT NOT NULL,
+    FOREIGN KEY (CustomerID) REFERENCES Customer(ID),
+    FOREIGN KEY (ChangeID) REFERENCES History(ID),
+    FOREIGN KEY (OfflineStorageID) REFERENCES OfflineStorage(ID),
+    FOREIGN KEY (HistoryID) REFERENCES History(ID)
+); 
