@@ -10,17 +10,21 @@ public class Program
         double discount = discountCalc(15, user.Type);
         Console.WriteLine($"Discount: {discount}%");
         ShoppingCart cart = new ShoppingCart();
+
         Product product1 = new Product("Laptop", 1000, 5);
         Product product2 = new Product("Phone", 500, 4);
         Product product3 = new Product("Tablet", 300, 3);
         Product product4 = new Product("Smartwatch", 200, 2);
+
         cart.ProductAdded += (source, args) => Console.WriteLine("Product added to cart");
         cart.AddProduct(product1);
         cart.AddProduct(product2);
         cart.AddProduct(product3);
         cart.AddProduct(product4);
+
         cart.ProductRemoved += (source, args) => Console.WriteLine("Product removed from cart");
         cart.RemoveProduct(product2);
+        
         cart.SortByPrice();
         cart.PrintCart();
         cart.SortByRating();
