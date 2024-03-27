@@ -10,21 +10,5 @@ namespace proga.hw_05
             Name = name;
             Type = type;
         }
-        
-        public double CalculateDiscount(int quantity)
-        {
-            double discount = 0;
-            if (quantity > 10)
-            {
-                discount += 0.05;
-            }
-
-            if (Type == "Premium")
-            {
-                discount += 0.1;
-            }
-
-            return discount;
-        }
     }
 }
