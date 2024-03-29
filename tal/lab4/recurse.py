@@ -54,6 +54,7 @@ def merge(left, right):
     result.extend(right[j:])
 
     return result
+# O(n*log(n))
 
 def fibonacci(n):
     if n <= 0:
@@ -62,6 +63,7 @@ def fibonacci(n):
         return 1
     else:
         return fibonacci(n-1) + fibonacci(n-2)
+# O(2^n)
     
 def fibonacci_iterative(n):
     if n <= 0:
@@ -73,12 +75,20 @@ def fibonacci_iterative(n):
         for _ in range(2, n+1):
             a, b = b, a + b
         return b
+# O(n)
 
+
+print("Рекурсивні функції")
+print("\nTask 1\n")
 print(f1(2, 3, 4, 5))  # Вивід: 20
+print("\nTask 2\n")
 print(f2(5, 3))  # Вивід: 8
+print("\nTask 3\n")
 print(f3(5, 3))  # Вивід: 15
+print("\nTask 4\n")
 unsorted_list = [5, 2, 8, 1, 9, 3]
 sorted_list = merge_sort(unsorted_list)
 print(sorted_list)  # Вивід: [1, 2, 3, 5, 8, 9]
+print("\nTask 5\n")
 print(fibonacci(10))  # Вивід: 55
 print(fibonacci_iterative(10))  # Вивід: 55
