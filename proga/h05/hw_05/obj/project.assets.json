@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/maxhotiuk/Desktop/labs4sem/proga/hw_05/hw_05.csproj",
+      "projectUniqueName": "/Users/maxhotiuk/Desktop/lab4sem/proga/h05/hw_05/hw_05.csproj",
       "projectName": "hw_05",
-      "projectPath": "/Users/maxhotiuk/Desktop/labs4sem/proga/hw_05/hw_05.csproj",
+      "projectPath": "/Users/maxhotiuk/Desktop/lab4sem/proga/h05/hw_05/hw_05.csproj",
       "packagesPath": "/Users/maxhotiuk/.nuget/packages/",
-      "outputPath": "/Users/maxhotiuk/Desktop/labs4sem/proga/hw_05/obj/",
+      "outputPath": "/Users/maxhotiuk/Desktop/lab4sem/proga/h05/hw_05/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/maxhotiuk/.nuget/NuGet/NuGet.Config"
