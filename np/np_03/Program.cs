@@ -51,6 +51,11 @@ public class HouseCollection : IEnumerable<House>
         houses.Add(house);
     }
 
+    public void Remove(House house)
+    {
+        houses.Remove(house);
+    }
+
     public void SortByStreetName()
     {
         houses.Sort();
