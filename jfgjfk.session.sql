@@ -1,6 +1,12 @@
-SELECT document.name, document.createdate, history.changedate
-FROM document
-JOIN history ON document.historyid = history.id
-WHERE history.id >= 3
-ORDER BY document.name DESC
-LIMIT 2;
+WITH document_counts AS (
+    SELECT EXTRACT(YEAR FROM createdate) AS year, COUNT(*) AS document_count
+    FROM document
+    GROUP BY EXTRACT(YEAR FROM createdate)
+)
+SELECT year, document_count
+FROM document_counts
+WHERE document_count = (
+    SELECT MAX(document_count) FROM document_counts
+);
+
+

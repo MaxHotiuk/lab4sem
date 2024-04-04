@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/maxhotiuk/Desktop/labs4sem/np/np_03/np_03/np_03.csproj",
-      "projectName": "np_03",
-      "projectPath": "/Users/maxhotiuk/Desktop/labs4sem/np/np_03/np_03/np_03.csproj",
+      "projectUniqueName": "/Users/maxhotiuk/Desktop/lab4sem/npd/npd/npd.csproj",
+      "projectName": "npd",
+      "projectPath": "/Users/maxhotiuk/Desktop/lab4sem/npd/npd/npd.csproj",
       "packagesPath": "/Users/maxhotiuk/.nuget/packages/",
-      "outputPath": "/Users/maxhotiuk/Desktop/labs4sem/np/np_03/np_03/obj/",
+      "outputPath": "/Users/maxhotiuk/Desktop/lab4sem/npd/npd/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/maxhotiuk/.nuget/NuGet/NuGet.Config"

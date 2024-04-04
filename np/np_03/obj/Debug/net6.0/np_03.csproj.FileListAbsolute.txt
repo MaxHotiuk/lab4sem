@@ -3,3 +3,8 @@
 /Users/maxhotiuk/Desktop/labs4sem/np/np_03/obj/Debug/net6.0/np_03.AssemblyInfoInputs.cache
 /Users/maxhotiuk/Desktop/labs4sem/np/np_03/obj/Debug/net6.0/np_03.AssemblyInfo.cs
 /Users/maxhotiuk/Desktop/labs4sem/np/np_03/obj/Debug/net6.0/np_03.csproj.CoreCompileInputs.cache
+/Users/maxhotiuk/Desktop/lab4sem/np/np_03/obj/Debug/net6.0/np_03.csproj.AssemblyReference.cache
+/Users/maxhotiuk/Desktop/lab4sem/np/np_03/obj/Debug/net6.0/np_03.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maxhotiuk/Desktop/lab4sem/np/np_03/obj/Debug/net6.0/np_03.AssemblyInfoInputs.cache
+/Users/maxhotiuk/Desktop/lab4sem/np/np_03/obj/Debug/net6.0/np_03.AssemblyInfo.cs
+/Users/maxhotiuk/Desktop/lab4sem/np/np_03/obj/Debug/net6.0/np_03.csproj.CoreCompileInputs.cache

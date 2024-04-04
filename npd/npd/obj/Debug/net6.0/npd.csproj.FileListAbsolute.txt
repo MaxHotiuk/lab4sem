@@ -1,0 +1,5 @@
+/Users/maxhotiuk/Desktop/lab4sem/npd/npd/obj/Debug/net6.0/npd.csproj.AssemblyReference.cache
+/Users/maxhotiuk/Desktop/lab4sem/npd/npd/obj/Debug/net6.0/npd.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maxhotiuk/Desktop/lab4sem/npd/npd/obj/Debug/net6.0/npd.AssemblyInfoInputs.cache
+/Users/maxhotiuk/Desktop/lab4sem/npd/npd/obj/Debug/net6.0/npd.AssemblyInfo.cs
+/Users/maxhotiuk/Desktop/lab4sem/npd/npd/obj/Debug/net6.0/npd.csproj.CoreCompileInputs.cache
